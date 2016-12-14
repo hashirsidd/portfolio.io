@@ -1,0 +1,46 @@
+.logo{
+    height: 45px;
+    margin-top: -13px;
+    padding-left: 20px;
+}
+body{
+    background-image: url("images/bg.jpg");
+    height: 1800px;
+}
+.navbar{
+        background-color: rgba(0, 0, 0, 0.22);
+}
+.navbar-collapse a{
+    color: #fff !important;
+}
+.navbar-collapse a:hover{
+    color: #ccc !important;
+}
+.profilepic{
+    margin-top: 3em;
+    height: 160px;
+    border-radius: 50%;
+    width: 160px;
+    border: 1px solid rgba(255, 255, 255, 0.8);;
+    padding: 0.5em;
+    /*border: solid 1px #000*/
+    background-color: rgb(93, 97, 124);
+    
+}
+@media screen and (max-width: 767px) {
+    .profilepic{
+        height: 100px;
+        width: 100px;
+        margin-top: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+.profilepic{
+        height: 130px;
+        width: 130px;
+    }
+}
+
+.container-pp{
+    float: none !important;
+}
