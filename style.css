@@ -5,12 +5,14 @@
     padding-left: 0px;
 }
 body{
-    /*height: 1800px;*/
+    height: 1800px; 
 }
 
 .container-fluid{
      background-image: url("images/bg.jpg");
-     height: 100vh;
+     height: 850px;
+     background-repeat: no-repeat;
+     background-size: cover;
 }
 
 .navbar{
@@ -102,23 +104,53 @@ body{
     transition: all 0.5s ease-in-out;
 }
 
-.second-container{
+.one{
+    height:350px;
+    background-size: cover;
+    background-color: #00e2ff;
+    overflow: hidden;
+    padding: 0px;
 }
 
-.one{
-    height:300px;
-    background-image: url(images/0.jpg);
+.four{
+    height: 350px;
     background-size: cover;
-    background-color: #36f79b;
-    
+    padding: 0; 
+}
+
+.one-span:hover ,.four-span:hover ,.two-span:hover ,.three-span:hover{
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.one-span,.two-span,.four-span ,.three-span{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    opacity: 0.2; 
 }
 
 .two{
-    height: 300px;
-
+    height: 350px;
+    background-size: cover;
+    background-color: #7082e5;
+    overflow: hidden;
+    padding: 0px;
+    
 }
 
+.three{
+    height: 350px;
+    background-size: cover;
+    padding: 0px;
+    overflow: hidden; 
+}
 
+.row{
+    margin: 0x;
+
+}
 
 
 
@@ -162,6 +194,10 @@ body{
     letter-spacing: 1px !important;
     }
 
+    .container-fluid{
+        height: 100vh;
+    }
+
     /*.one{
         height: 200px;
         width: 100%;
@@ -175,13 +211,12 @@ body{
         width: 130px;
         margin-top: 0.5em;
     }
-    /*.one{
+    .one{
         height:400px;
-        background-image: url(images/0.jpg);
-        background-size: cover;
-        background-color: #36f79b;
-    
-}*/
+    }    
+    .one-span{
+        background-size: 100% 100% !important;
+    }
 
 .container-fluid{
      height: 140vh;
