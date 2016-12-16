@@ -255,13 +255,13 @@ i:hover{
 
     .container-fluid{
         height: 40%;
-        width: 105% 
+        width: 100% ;
     }
 
    .container-link{
     position: relative;
     left: 15px;
-    top: 100px;
+    top: 100px !important;
 }
 .container-link h2{
     border-bottom: 2px solid #fff;
