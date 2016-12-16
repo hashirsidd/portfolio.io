@@ -7,27 +7,22 @@
 body{
     widows: 97%; 
     height: 1800px;
+    background-image: url("images/bg.jpg");
 }
 
+
+
 .container-fluid{
-     background-image: url("images/bg.jpg");
+     
      height: 850px;
      background-repeat: no-repeat;
      background-size: cover;
-    width: 101%;
+     width: 101%;
+     margin: 0px;
+     padding: 0px;
+
 }
 
-.navbar{
-        background-color: rgba(0, 0, 0, 0.22);
-}
-
-.navbar-collapse a{
-    color: #fff !important;
-}
-
-.navbar-collapse a:hover{
-    color: #ccc !important;
-}
 
 .profilepic{
     margin-top: 3em;
@@ -81,8 +76,6 @@ body{
         padding: 5px 0 0 0;
     }
 
-.paragraph{
-}
 
 .button{
     height: 40px;
@@ -223,7 +216,11 @@ i:hover{
 
 /*for mobile size*/
 @media screen and (max-width: 767px) {
-    
+    body{
+        padding: 0;
+        margin: 0 auto;
+    }
+
     
     .profilepic{
         height: 100px;
@@ -256,13 +253,13 @@ i:hover{
     }
 
     .container-fluid{
-        height: 600px;
+        height: 40%;
         width: 105% 
     }
 
    .container-link{
     position: relative;
-    left: 40px;
+    left: 15px;
     top: 100px;
 }
 .container-link h2{
@@ -288,6 +285,14 @@ i:hover{
     position: relative;
     bottom: -50px;    
 }
+.articles{
+   height: 300px;
+    width: 300px;
+    margin: 10px 25px;
+    border: 1px solid;
+    border-radius: 9px;
+    overflow: hidden;
+    }
 }
 
 /*for tablet size*/
