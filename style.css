@@ -106,69 +106,6 @@ body{
     transition: all 0.5s ease-in-out;
 }
 
-/*.one{
-    height:350px;
-    background-size: cover;
-    background-color: #00e2ff;
-    overflow: hidden;
-    padding: 0px;
-    position: relative;
-}
-.a-one{
-    color: #000;
-    position: absolute;
-    left: 75px;
-    top: 15vh;
-    text-decoration: none !important;
-    z-index: 999;
-}
-span h3{
-    font-size: 35px;
-    width: 30vh;
-    border-bottom: 3px solid #fff;
-    padding-bottom: 15px;   
-    position: relative;
-}
-
-span p{
-    cursor: default;
-}
-
-.four{
-    height: 350px;
-    background-size: cover;
-    padding: 0; 
-}
-
-.one-span:hover ,.four-span:hover ,.two-span:hover ,.three-span:hover ,.a-one:hover{
-    background: transparent !important;
-    transition: opacity 0.3s ease-in-out;
-}
-
-.one-span,.two-span,.four-span ,.three-span{
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-size: cover;
-    opacity: 0.2; 
-}
-
-.two{
-    height: 350px;
-    background-size: cover;
-    background-color: #7082e5;
-    overflow: hidden;
-    padding: 0px;
-    
-}
-
-.three{
-    height: 350px;
-    background-size: cover;
-    padding: 0px;
-    overflow: hidden; 
-}*/
-
 .row{
     margin: 0x;
 
@@ -243,6 +180,42 @@ span p{
     padding-top: 10px;
 }
 
+.social-icons{
+    text-align: center;
+    position: relative;
+    bottom: -200px;    
+}
+
+.social-icons a i{
+    color: #ccc;
+    border: 1px solid #ffe;
+     border-radius: 50%; 
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 10px;
+    margin: 10px;
+    background-color:  rgba(239, 219, 219, 0.13);
+}
+
+i:hover{
+    color: #fff !important;
+    border: 1px solid #fff;
+    background-color: : rgba(239, 219, 219, 0.5) !important;
+    transition: all 0.2s ease-in-out ;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -287,7 +260,7 @@ span p{
 
    .container-link{
     position: relative;
-    left: 20px;
+    left: 40px;
     top: 100px;
 }
 .container-link h2{
@@ -295,6 +268,23 @@ span p{
     width: 250px;
     padding-bottom: 20px;
     font-size:25px;
+}
+
+.social-icons a i{
+    color: #fff;
+    border: 1px solid #ffe;
+    border-radius: 50%; 
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    padding-top: 3px;
+    margin: 5px;
+    background-color:  rgba(239, 219, 219, 0.13);
+}
+.social-icons{
+    text-align: center;
+    position: relative;
+    bottom: -50px;    
 }
 }
 
