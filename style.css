@@ -200,6 +200,14 @@ i:hover{
     transition: all 0.2s ease-in-out ;
     
 }
+.work-link{
+    font-family: 'Raleway', sans-serif;
+    color:#fff;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 50px;
+}
 
 
 
@@ -289,6 +297,7 @@ i:hover{
     position: relative;
     bottom: -50px;    
 }
+
 .articles{
    height: 300px;
     width: 300px;
