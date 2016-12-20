@@ -6,11 +6,34 @@
 }
 body{
     background-image: url("images/bg.jpg");
-        overflow-x: hidden;
+     overflow-x: hidden;
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat; 
+}
+.nav-up {
+    top: -40px;
 }
 
-
-
+.container-navbar{
+    height: 50px;
+    z-index: 1000;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+.navbar-right{
+    margin: 0;
+}
+.nav > li {
+    background: #000;
+}
+.nav > li:hover {
+    color: #fff;
+}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    background-color: #000;
+}
 .container-fluid{
      
      height: 850px;
@@ -27,7 +50,7 @@ body{
     height: 160px;
     border-radius: 50%;
     width: 160px;
-    border: 1px solid rgba(255, 255, 255, 0.8);;
+    border: 1px solid rgba(255, 255, 255, 0.8);
     padding: 0.5em;
     /*border: solid 1px #000*/
     background-color: rgb(93, 97, 124);
@@ -165,6 +188,10 @@ a{
     left: 70px;
     top: 100px;
 }
+.p-img{
+    height: 30px;
+    margin-top: -5px;
+}
 .container-link h2{
     border-bottom: 2px solid #fff;
     width: 350px;
@@ -177,7 +204,7 @@ a{
 .social-icons{
     text-align: center;
     position: relative;
-    bottom: -170px;    
+    bottom: -100px;    
 }
 
 .social-icons a i{
@@ -192,12 +219,15 @@ a{
     background-color:  rgba(239, 219, 219, 0.13);
 }
 
-i:hover{
+.social-icons a:hover{
+    cursor: pointer;
+    color: #fff;
+}
+.fa-2x:hover{
     color: #fff !important;
     border: 1px solid #fff;
-    background-color: : rgba(239, 219, 219, 0.5) !important;
     transition: all 0.2s ease-in-out ;
-    
+    cursor: pointer;
 }
 .work-link{
     font-family: 'Raleway', sans-serif;
@@ -205,7 +235,7 @@ i:hover{
     font-size: 16px;
     text-align: center;
     position: relative;
-    bottom: 70px;
+    bottom: 120px;
 }
 .glyphicon-chevron-down{
     cursor: default;
@@ -367,11 +397,12 @@ a-email:hover{
     .heading{
     font-size: 24px !important;
     margin-left: 0 !important;
-    /*margin: 0.5em 0 0.5em 0 !important;*/
+        margin-top: 10px;
     letter-spacing: 0.01em !important;
     border-bottom: 2px solid #fff;
     width: 300px !important;
-    padding-bottom: 35px;
+    padding-bottom: 25px;
+    margin-bottom: 20px;
     }
 
     .main-banner{
@@ -400,7 +431,8 @@ a-email:hover{
 }
 .container-link p{
     font-size: 90%; 
-    letter-spacing: 1px;    
+    letter-spacing: 1px; 
+    width: 90%;   
 }
 .social-icons a i{
     font-size: 20px;
@@ -417,9 +449,12 @@ a-email:hover{
 .social-icons{
     text-align: center;
     position: relative;
-    bottom: -50px;    
+    bottom: -30px;    
 }
-
+.work-link p {
+    margin: 0;
+    margin-top: -10px;
+}
 
 .articles{
    height: 300px;
